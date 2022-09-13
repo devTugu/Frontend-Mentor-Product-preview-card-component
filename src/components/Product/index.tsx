@@ -27,10 +27,10 @@ const Product: React.FC<ProductProps> = ({
     <div className="grid sm:grid-cols-2 grid-cols-1 rounded-[0.8rem] bg-white">
       <div>
         <div className="block sm:hidden">
-          { imageMob ? <Image src={imageMob} width={350} height={240} alt={title} layout="responsive" className="rounded-t-[0.8rem]" /> : null}
+          { imageMob ? <Image src={imageMob} width={350} height={240} alt={title} layout="responsive" className="rounded-t-[0.8rem]" priority /> : null}
         </div>
         <div className="hidden sm:block">
-          { imageDesk ? <Image src={imageDesk} width={350} height="561" alt={title} layout="responsive" className="rounded-l-[0.8rem]" /> : null}
+          { imageDesk ? <Image src={imageDesk} width={350} height="561" alt={title} layout="responsive" className="rounded-l-[0.8rem]" priority /> : null}
         </div>
       </div>
       <div className="grid py-[2.5rem] px-[1.5rem]">

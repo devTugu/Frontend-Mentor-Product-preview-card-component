@@ -19,7 +19,7 @@ export default function Home() {
       <div className='mt-[80px]'>
         <p className='text-[14px] font-sans-serif'>Challenge by <Link href="https://www.frontendmentor.io?ref=challenge" target="_blank" passHref>Frontend Mentor</Link>.</p>
         <p className='text-[14px] font-sans-serif'>Coded by <Link href="https://www.frontendmentor.io/profile/devTugu" passHref>Tuguldur Unurtsetseg</Link>.</p>
-        <p className='text-[14px] font-sans-serif'><Link href="https://github.com/devTugu/Product-preview-card-component" passHref>Source code right here.</Link>.</p>
+        <p className='text-[14px] font-sans-serif'><Link href="https://github.com/devTugu/Frontend-Mentor-Product-preview-card-component" passHref>Source code right here.</Link>.</p>
       </div>
     </div>
   )
