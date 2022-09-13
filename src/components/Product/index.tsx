@@ -34,7 +34,7 @@ const Product: React.FC<ProductProps> = ({
         </div>
       </div>
       <div className="grid py-[2.5rem] px-[1.5rem]">
-        <p className="font-sans-serif uppercase tracking-[0.8vw]">{tag}</p>
+        <p className="font-sans-serif uppercase text-dark-graylish tracking-[0.8vw]">{tag}</p>
         <h1 className="font-serif capitalize text-dark-blue text-[34px] leading-[1em] sm:mt-[28px] mt-[20px]">{title}</h1>
         <p className="font-sans-serif text-dark-graylish leading-[1.5em] sm:mt-[35px] mt-[27px]">{description}</p>
         <div className="grid grid-cols-2 gap-[20px] items-center	sm:mt-[37px] mt-[32px]">
